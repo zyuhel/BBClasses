@@ -13,14 +13,14 @@ Styleble LabelField, on navigation click events initiate browser opening, suppor
 
 usage
 
-  import ru.irsoftware.ui.LinkField;
-  /* class definitions, etc */
-  LinkField linkField = new LinkField("Website","http://example.com");
+	import ru.irsoftware.ui.LinkField;
+	/* class definitions, etc */
+	LinkField linkField = new LinkField("Website","http://example.com");
   
 or   
 
-  LinkField linkField = new LinkField("Contact US", "mailto:test@example.com");
-  linkField.setColor(Color.BLUE);
+	LinkField linkField = new LinkField("Contact US", "mailto:test@example.com");
+	linkField.setColor(Color.BLUE);
 
 
 ### PhoneField
@@ -29,11 +29,11 @@ Styleble LabelField, on navigation click events initiate phone calling of the se
 
 usage
 
-  import ru.irsoftware.ui.PhoneField;
-  /* class definitions, etc */
-  PhoneField phoneField = new PhoneField("+34534355");
+	import ru.irsoftware.ui.PhoneField;
+	/* class definitions, etc */
+	PhoneField phoneField = new PhoneField("+34534355");
   
 or   
 
-  PhoneField phoneField = new PhoneField("Call me", "+34534355");
-  phoneField.setColor(Color.RED);
+	PhoneField phoneField = new PhoneField("Call me", "+34534355");
+	phoneField.setColor(Color.RED);
