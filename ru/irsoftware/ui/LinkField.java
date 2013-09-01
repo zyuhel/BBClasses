@@ -53,6 +53,13 @@ public class LinkField extends LabelField {
 		// TODO Auto-generated constructor stub
 	}
 	
+
+	public LinkField(Object text, String param_url,long style) {
+		super(text, style);
+		this.setUrl(param_url);
+		// TODO Auto-generated constructor stub
+	}
+
 	public boolean navigationClick (int status , int time){
 		if (this.getUrl().startsWith("mailto"))
 		{
